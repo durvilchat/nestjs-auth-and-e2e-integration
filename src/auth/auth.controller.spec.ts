@@ -6,6 +6,7 @@ import { Response } from 'express';
 
 describe('AuthController', () => {
   let authController: AuthController;
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   let authService: AuthService;
 
   const mockAuthService = {

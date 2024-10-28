@@ -57,9 +57,11 @@ jobs:
       - name: Run Build
         run: npm run build
 
+      - name: Run unit tests
+        run: npm run test
 
-      - name: Run tests e2e
-        run: npm run __tests__:e2e
+      - name: Run  e2e tests
+        run: npm run test:e2e
         env:
           MYSQL_HOST: localhost
           MYSQL_PORT: 3306

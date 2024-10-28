@@ -6,6 +6,7 @@ import { Response } from 'express';
 
 describe('UsersController', () => {
   let usersController: UsersController;
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   let usersService: UsersService;
 
   const mockUsersService = {
